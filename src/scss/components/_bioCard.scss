@@ -1,0 +1,39 @@
+@use "../helpers";
+
+.bio{
+  display: inline-flex;
+  place-content: center;
+}
+.bio-header{
+  transform: scale(0.45);
+  margin-left: -35%;
+  margin-bottom: -15%;
+}
+
+.bio-info{
+  border: helpers.$colour-emphasized 1px solid;
+  background-color: helpers.$colour-emphasized;
+  color: #fff;
+  border-radius: 7px;
+  padding: 1rem;
+  width: 60%;
+}
+
+.bio-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bio-img:hover{
+  filter: saturate(0%);
+}
+
+.bio-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}

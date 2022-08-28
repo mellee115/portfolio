@@ -1,0 +1,20 @@
+//Main SCSS input file
+
+//The order of imports are important!
+//This is the single file output by SCSS. There are no styles defined directly in the main.scss input file.
+//It is intended to ONLY import other files via @use.
+
+// 2 - basics
+@use 'basics';
+
+// 3 - layout
+@use 'layout';
+
+// 4 - components
+@use 'components';
+
+// 5 - pages
+//@use 'pages';
+
+// 6 - themes
+//@use 'themes';
