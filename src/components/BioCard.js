@@ -19,7 +19,9 @@ export const BioCard = () =>{
           <hr/>
           . . .<br/>
           <hr/>
-          <FontAwesomeIcon className='fa-2x m-r-5' icon={faLinkedin}/>Learn more at my LinkedIn Profile
+          <a href='https://bit.ly/3caiDAo'>
+            <FontAwesomeIcon className='fa-2x m-r-5' icon={faLinkedin}/>Learn more at my LinkedIn Profile
+          </a>
         </div>
       </div>
     </div>

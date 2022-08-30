@@ -49,7 +49,7 @@ function App() {
         {content}
       </main>
       <footer>
-        Built with React<FontAwesomeIcon icon={faReact} className="fa-brands fa-react m-l-5 rotate" />
+        Built with <a className='m-l-5' href='https://reactjs.org/'>React</a> <FontAwesomeIcon icon={faReact} className="fa-brands fa-react m-l-5 rotate" />
       </footer>
     </div>
   );

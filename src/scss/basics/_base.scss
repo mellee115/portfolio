@@ -1,7 +1,5 @@
 @use '../helpers';
 a{
-  display: flex;
-  place-items: center;
   text-decoration: inherit;
 }
 a:visited{
@@ -22,10 +20,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
   color: #fff;
+  filter: drop-shadow(0.25rem 0.25rem 0.25rem grey);
+
 }
 
 footer{
   padding: 1rem;
+  display: inline-flex;
 }
 
 li {
