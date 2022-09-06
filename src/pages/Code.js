@@ -12,7 +12,7 @@ export const Code = () =>{
       </p>
       <h2>Github projects:</h2>
       <p>
-        <FontAwesomeIcon className='fa-3x m-r-10' icon={faGithub}/>
+        <a href='https://github.com/mellee115'><FontAwesomeIcon className='fa-3x m-r-10' icon={faGithub}/></a>
       </p>
     </div>
   )

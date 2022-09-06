@@ -10,7 +10,7 @@ export const Hero = ({name}) =>{
     <div className="hero">
       <p>
         welcome to the portfolio of <br/>
-        <code>{name}</code>
+        <div className="hero__name">{name}</div>
       </p>
     </div>
   );

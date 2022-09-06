@@ -1,3 +1,5 @@
+@use 'variables';
+
 .rotate{
   -webkit-animation: rotation 2s infinite linear;
   animation: rotation 3s infinite linear;
@@ -14,4 +16,28 @@
 
   from {transform: rotate(0deg);}
   to   {transform: rotate(359deg);}
+}
+
+%typing{
+  overflow: hidden;
+  animation: typing 4s steps(40),
+             blinking 1s step-end infinite;
+}
+
+@keyframes typing{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+@keyframes blinking{
+  0%, 100%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: variables.$colour-emphasized;
+  }
 }

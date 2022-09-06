@@ -18,4 +18,19 @@
   padding-bottom: 1rem;
   font-weight: helpers.$font-weight--medium;
   font-size: 2rem;
+
+  &__name{
+    display: inline-block;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: #fff;
+    font-size: 3.5rem;
+    height: 3.5rem;
+    filter: drop-shadow(0.25rem 0.25rem 0.25rem helpers.$colour-emphasized);
+    white-space: nowrap;
+    max-width: min-content;
+    border-right: .15em solid helpers.$colour-emphasized;
+    padding: 0.4rem;
+    @extend %typing;
+  }
 }
