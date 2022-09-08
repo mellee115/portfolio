@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faReact} from "@fortawesome/free-brands-svg-icons";
 
 import {Nav} from "./components/Nav";
 import {Hero} from "./components/Hero";
@@ -10,6 +8,7 @@ import '../src/scss/main.scss';
 import {Music} from "./pages/Music";
 import {Code} from "./pages/Code";
 import {BioCard} from "./components/BioCard";
+import {Footer} from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -18,8 +17,11 @@ function App() {
     setCurrentPage(e.target.value);
   }
 
-  let content = '';
+  let content;
   switch(currentPage){
+    // case 'Art':
+    //   content = <Art/> ;
+    //   break;
     case 'Bio':
       content = <BioCard />
       break;
@@ -34,7 +36,7 @@ function App() {
       break;
     // case 'Photos':
     //   content = <Photos/> ;
-    //   break;   // case 'Photos':
+    //   break;
     default:
       content = '';
   }
@@ -48,9 +50,7 @@ function App() {
       <main>
         {content}
       </main>
-      <footer>
-        Built with <a className='m-l-5' href='https://reactjs.org/'>React</a> <FontAwesomeIcon icon={faReact} className="fa-brands fa-react m-l-5 rotate" />
-      </footer>
+      <Footer />
     </div>
   );
 }

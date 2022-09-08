@@ -13,7 +13,7 @@ export const BioCard = () =>{
       <div className='bio-right'>
         <img className='bio-header' src={hello} alt={'Hello!!'}/>
         <div className='bio-info'>
-          <p>I am a <b>Software Developer</b>, an <b>Artist</b>, and a <b>Musician</b>.</p>
+          <p>I am a front-end <b>Software Developer</b>, an <b>Artist</b>, and a <b>Musician</b>.</p>
           <hr/>
           <p><FontAwesomeIcon className='fa-2x m-r-5' icon={faGraduationCap}/> Alumni of the University of Waterloo </p>
           <hr/>

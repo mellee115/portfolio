@@ -7,12 +7,12 @@ export const Code = () =>{
     <div>
       <h2>This portfolio is built with the power of:</h2>
       <p>
-        <FontAwesomeIcon className='fa-3x m-r-10' icon={faReact}/>
-        <FontAwesomeIcon className='fa-3x m-r-10' icon={faSass}/>
+        <FontAwesomeIcon className='fa-3x m-r-10 fa-icon' icon={faReact}/>
+        <FontAwesomeIcon className='fa-3x m-r-10 fa-icon' icon={faSass}/>
       </p>
       <h2>Github projects:</h2>
       <p>
-        <a href='https://github.com/mellee115'><FontAwesomeIcon className='fa-3x m-r-10' icon={faGithub}/></a>
+        <a className='fa-icon' href='https://bit.ly/3L3ZugN'><FontAwesomeIcon className='fa-icon fa-3x m-r-10' icon={faGithub}/></a>
       </p>
     </div>
   )
