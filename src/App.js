@@ -7,7 +7,7 @@ import {Hero} from "./components/Hero";
 import '../src/scss/main.scss';
 import {Music} from "./pages/Music";
 import {Code} from "./pages/Code";
-import {BioCard} from "./components/BioCard";
+import {Bio} from "./pages/Bio";
 import {Footer} from "./components/Footer";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     //   content = <Art/> ;
     //   break;
     case 'Bio':
-      content = <BioCard />
+      content = <Bio />
       break;
     case 'Code':
       content = <Code/> ;

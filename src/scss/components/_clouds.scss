@@ -1,0 +1,33 @@
+@use "../helpers";
+
+.clouds {
+  display: flex;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+.cloud1 {
+  animation: drifting 65s linear infinite;
+  margin-top: 20% ;
+  opacity: 90%;
+}
+
+.cloud2{
+  animation: drifting 45s linear infinite;
+  animation-delay: 4s;
+  margin-top: 45% ;
+  opacity: 10%;
+}
+
+.cloud3{
+  animation: drifting 55s linear infinite;
+  animation-delay: 6s;
+  opacity: 25%;
+}
+
+.cloud4{
+  animation: drifting 50s linear infinite;
+  animation-delay: 2s;
+  margin-top: -30% ;
+  opacity: 10%;
+}

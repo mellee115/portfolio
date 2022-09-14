@@ -1,5 +1,24 @@
 @use 'variables';
 
+@keyframes blinking{
+  0%, 100%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: variables.$colour-emphasized;
+  }
+}
+
+@keyframes drifting {
+  0%{
+    transform: translateX(-300px);
+    opacity: 10%;
+  }
+  100%{
+    transform: translateX(200%);
+  }
+}
+
 %hover {
   color: variables.$colour-emphasized !important;
 }
@@ -34,14 +53,5 @@
   }
   100%{
     width: 100%;
-  }
-}
-
-@keyframes blinking{
-  0%, 100%{
-    border-color: transparent;
-  }
-  50%{
-    border-color: variables.$colour-emphasized;
   }
 }

@@ -1,9 +1,13 @@
 @use "../helpers";
 
-.bio{
+.bio {
   display: inline-flex;
-  place-content: center;
+  position: absolute;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
 .bio-header{
   transform: scale(0.45);
   margin-left: -35%;
@@ -17,6 +21,7 @@
   border-radius: 7px;
   padding: 1rem;
   width: 60%;
+  margin-right: auto;
 }
 
 .bio-img{
@@ -25,6 +30,7 @@
   border-radius: 50%;
   object-fit: cover;
   padding: 1rem;
+  padding-left: 2rem;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -33,7 +39,7 @@
 }
 
 .bio-right{
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   width: 50%;
 }
