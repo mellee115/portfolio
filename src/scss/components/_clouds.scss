@@ -4,30 +4,31 @@
   display: flex;
   z-index: -1;
   overflow-x: hidden;
+  fill: helpers.$colour-emphasized !important; //note: only applying to cloud1 currently
 }
 
 .cloud1 {
   animation: drifting 65s linear infinite;
-  margin-top: 20% ;
-  opacity: 90%;
+  margin-top: 20%;
+  opacity: 0%;
 }
 
 .cloud2{
   animation: drifting 45s linear infinite;
   animation-delay: 4s;
-  margin-top: 45% ;
-  opacity: 10%;
+  opacity: 0%;
 }
 
 .cloud3{
   animation: drifting 55s linear infinite;
   animation-delay: 6s;
-  opacity: 25%;
+  opacity: 0%;
 }
 
 .cloud4{
   animation: drifting 50s linear infinite;
   animation-delay: 2s;
-  margin-top: -30% ;
-  opacity: 10%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0%;
 }

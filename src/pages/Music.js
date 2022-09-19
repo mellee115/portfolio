@@ -6,8 +6,8 @@ export const Music = () => {
   return(
     <ul>
       <li>
-        <a href='https://www.youtube.com/user/melissashawmusic/videos'>
-          <FontAwesomeIcon className='fa-2x m-r-10 svg-inline--fa' icon={faYoutube}/> YouTube Music Channel - melissashawmusic
+        <a href='https://www.last.fm/user/mellee115'>
+          <FontAwesomeIcon className='fa-2x m-r-10 svg-inline--fa' icon={faLastfm}/> Last.fm Listening Charts
         </a>
       </li>
       <li>
@@ -16,8 +16,8 @@ export const Music = () => {
         </a>
       </li>
       <li>
-        <a href='https://www.last.fm/user/mellee115'>
-          <FontAwesomeIcon className='fa-2x m-r-10 svg-inline--fa' icon={faLastfm}/> Last.fm Listening Charts
+        <a href='https://www.youtube.com/user/melissashawmusic/videos'>
+          <FontAwesomeIcon className='fa-2x m-r-10 svg-inline--fa' icon={faYoutube}/> YouTube Music Channel - melissashawmusic
         </a>
       </li>
     </ul>
