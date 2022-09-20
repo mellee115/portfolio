@@ -23,6 +23,7 @@
     "react-scripts": "3.yar4.0",
     "sass": "^1.54.5",
     "sass-loader": "^13.0.2",
+    "url-loader": "^4.1.1",
     "web-vitals": "^2.1.4",
     "webpack": "^5.74.0"
   },

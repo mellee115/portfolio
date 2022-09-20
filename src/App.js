@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import {Nav} from "./components/Nav";
 import {Hero} from "./components/Hero";
-//import {Photos} from "./pages/Photos";
+import {Photos} from "./pages/Photos";
 
 import '../src/scss/main.scss';
 import {Music} from "./pages/Music";
@@ -34,9 +34,9 @@ function App() {
     case 'Music':
       content = <Music/> ;
       break;
-    // case 'Photos':
-    //   content = <Photos/> ;
-    //   break;
+    case 'Photos':
+      content = <Photos/> ;
+      break;
     default:
       content = '';
   }

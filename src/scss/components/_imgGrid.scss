@@ -1,0 +1,12 @@
+.imgGrid{
+  height: 80%;
+  overflow: hidden;
+}
+
+.imgGrid__img{
+  max-height: 350px;
+  max-width: 350px;
+  padding: .25rem;
+  border-radius: 20px;
+  position: relative;
+}
