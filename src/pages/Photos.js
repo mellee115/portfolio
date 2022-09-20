@@ -8,7 +8,8 @@ import img4 from "../assets/images/photos/Sweet Dreams Overhead Noodle Soup Spec
 import img5 from "../assets/images/photos/Macarons.JPG"
 import img6 from "../assets/images/photos/Sweet Dreams Hot Drink Special.JPG"
 import img7 from "../assets/images/photos/Sweet Dreams at night.JPG"
-import img8 from "../assets/images/photos/Super Flower Blood Moon.jpg"
+import img8 from "../assets/images/photos/Super Flower Blood Moon.JPG"
+import img9 from "../assets/images/photos/Rock Dunder Tiny Mushrooms.JPG"
 
 export const Photos = () => {
   //TODO: rewrite this in a better way?
@@ -21,6 +22,7 @@ export const Photos = () => {
    {src:img6},
    {src:img7},
    {src:img8},
+   {src:img9},
  ]
 
   return(<>

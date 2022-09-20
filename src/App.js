@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
 
+import '../src/scss/main.scss';
+
 import {Nav} from "./components/Nav";
 import {Hero} from "./components/Hero";
 import {Photos} from "./pages/Photos";
-
-import '../src/scss/main.scss';
 import {Music} from "./pages/Music";
 import {Code} from "./pages/Code";
 import {Bio} from "./pages/Bio";
 import {Footer} from "./components/Footer";
+import {Art} from "./pages/Art";
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -19,9 +20,9 @@ function App() {
 
   let content;
   switch(currentPage){
-    // case 'Art':
-    //   content = <Art/> ;
-    //   break;
+    case 'Art':
+      content = <Art/> ;
+      break;
     case 'Bio':
       content = <Bio />
       break;
