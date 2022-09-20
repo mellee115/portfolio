@@ -28,17 +28,21 @@ hr{
   border-radius: 7px;
 }
 
-li {
-  display: flex;
+ul{
+  display: grid;
   place-content: center;
+  padding-inline-start: 0;
+}
+
+li {
   list-style-type: none;
-  width: 50%;
+  width: 100%;
   padding: 1rem;
   background-color: helpers.$colour-emphasized;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
   border: helpers.$colour-emphasized 1px solid;
   border-radius: 7px;
   font-weight: helpers.$font-weight--medium;
