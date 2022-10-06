@@ -10,6 +10,11 @@ import img6 from "../assets/images/art/tulips with blue grid.jpg"
 import img7 from "../assets/images/art/gouache pear.jpg"
 import img8 from "../assets/images/art/polymer clay crane.jpg"
 import img9 from "../assets/images/art/abstract acrylic painting 1.jpg"
+import img10 from "../assets/images/art/Red Gouache Rose.jpg"
+import img11 from "../assets/images/art/Monstera.jpg"
+import img12 from "../assets/images/art/cave mushrooms.jpg"
+import img13 from "../assets/images/art/greyhound bow.jpg"
+import img14 from "../assets/images/art/bonsai trees.jpg"
 
 export const Art = () => {
   //TODO: rewrite this in a better way?
@@ -23,6 +28,11 @@ export const Art = () => {
     {src:img7},
     {src:img8},
     {src:img9},
+    {src:img10},
+    {src:img11},
+    {src:img12},
+    {src:img13},
+    {src:img14},
   ]
 
   return(<>
